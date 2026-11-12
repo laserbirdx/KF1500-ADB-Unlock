@@ -1,0 +1,8 @@
+dist/
+build/
+*.spec
+*.exe
+*.log
+apks/
+__pycache__/
+*.pyc
