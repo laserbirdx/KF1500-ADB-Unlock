@@ -2,6 +2,22 @@
 
 SDMC KF-1500 (TurksatATV / DV8957X-KTT) Android TV kutularında **Ayarlar > Cihaz Hakkında** içindeki ADB şifre kilidini açmak için seri numarasından 6 haneli kodu hesaplar.
 
+## Cihaz Özellikleri
+
+| Alan | Değer |
+|---|---|
+| Model / Cihaz | KF-1500 / DV8957X-KTT (TurksatATV-23) |
+| Üretici / Marka | SDMC / TVHerYerde |
+| SoC | Amlogic S905X4 (platform `ohm`), 4× Cortex-A55 |
+| ABI | armeabi-v7a (32-bit userspace) |
+| RAM | 3.7 GB |
+| Depolama (/data) | 25 GB |
+| Android | 12 (SDK 31), build `20241011` |
+| Güvenlik Yaması | 2024-09-05 |
+| Kernel | 5.4.242-android12-9 |
+| Ekran | 3840×2160 (override 1920×1080, 320 dpi) |
+| Seri No Formatı | KFSMxxxxxx (10 hane) |
+
 ## Algoritma
 
 Şifre, cihazın `ro.serialno` değerinden türetilir:
