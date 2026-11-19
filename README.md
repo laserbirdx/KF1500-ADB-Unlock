@@ -4,7 +4,12 @@
 
 # KF-1500 ADB Unlock Code Generator
 
-![target: Android 12 TV](https://img.shields.io/badge/target-Android%2012%20TV-3DDC84?logo=android&logoColor=white) ![python: 3.x](https://img.shields.io/badge/python-3.x-3776AB?logo=python&logoColor=white) ![SoC: Amlogic S905X4](https://img.shields.io/badge/SoC-Amlogic%20S905X4-informational) ![license: MIT](https://img.shields.io/badge/license-MIT-green)
+<p align="center">
+  <img src="https://img.shields.io/badge/target-Android%2012%20TV-3DDC84?logo=android&logoColor=white" alt="target: Android 12 TV" />
+  <img src="https://img.shields.io/badge/python-3.x-3776AB?logo=python&logoColor=white" alt="python: 3.x" />
+  <img src="https://img.shields.io/badge/SoC-Amlogic%20S905X4-informational" alt="SoC: Amlogic S905X4" />
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="license: MIT" />
+</p>
 
 Computes the 6-digit unlock code for the ADB password gate on SDMC KF-1500 (TurksatATV / DV8957X-KTT) Android TV boxes. The code is derived from the device serial number (`ro.serialno`).
 
